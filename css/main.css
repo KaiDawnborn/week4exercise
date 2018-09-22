@@ -16,8 +16,8 @@ body {
 .maroon {
 	background-color: maroon;
 }
-.coral {
-	background-color: coral;
+.red {
+	background-color: red;
 }
 .lightcoral {
 	background-color: lightcoral;
@@ -29,6 +29,7 @@ body {
 	height: 200px;
 	width: 200px;
 	background-color: beige;
+	margin: auto;
 }
 @media(max-width: 600px) {
 	.coral {
