@@ -5,3 +5,41 @@ CSS Selector {
 	property: value;
 }
 */
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+}
+.maroon {
+	background-color: maroon;
+}
+.coral {
+	background-color: coral;
+}
+.lightcoral {
+	background-color: lightcoral;
+}
+.pink {
+	background-color: pink;
+}
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: beige;
+}
+@media(max-width: 600px) {
+	.coral {
+		display: none;
+	}
+	.lightcoral {
+		display: none;
+	}
+}
+@media(max-width: 1000px) {
+	.box {
+		width: 20%;
+	}
+}
